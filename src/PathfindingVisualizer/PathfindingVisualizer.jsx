@@ -104,16 +104,16 @@ export default class PathfindingVisualizer extends Component {
   visualizeDijkstra() {
     const { grid, startNode, finishNode } = this.state;
 
-    // Validate start and finish node are set
-    const start = grid[startNode.row][startNode.col];
-    const finish = grid[finishNode.row][finishNode.col];
+    const start = grid[startNode.row]?.[startNode.col];
+    const finish = grid[finishNode.row]?.[finishNode.col];
 
-    if (!start.isStart) {
-      alert('Please select a Start Node before visualizing.');
+    if (!start || !start.isStart) {
+      alert('⚠ Please select a valid Start Node before visualizing.');
       return;
     }
-    if (!finish.isFinish) {
-      alert('Please select an End Node before visualizing.');
+
+    if (!finish || !finish.isFinish) {
+      alert('⚠ Please select a valid End Node before visualizing.');
       return;
     }
 
