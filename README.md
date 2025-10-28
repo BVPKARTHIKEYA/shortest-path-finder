@@ -24,15 +24,6 @@ An interactive React-based visualization tool for exploring and understanding sh
 
 ---
 
-## 🚀 Demo
-
-[Live Demo](#) *(Add your deployed link here)*
-
-### Screenshots
-
-*(Add screenshots of your application here)*
-
----
 
 ## 📋 Table of Contents
 
@@ -110,11 +101,6 @@ An interactive React-based visualization tool for exploring and understanding sh
 - **Time Complexity**: O((V + E) log V)
 - **Best for**: Graphs with non-negative weights
 
-### A* (A-Star) Algorithm
-- **Type**: Heuristic-based search
-- **Guarantee**: Finds shortest path with admissible heuristic
-- **Time Complexity**: O(E) where E is the number of edges
-- **Best for**: When you know the direction to the target
 
 ### Breadth-First Search (BFS)
 - **Type**: Unweighted graph algorithm
@@ -247,11 +233,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ---
 
-## 📜 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 ## 📧 Contact
 
