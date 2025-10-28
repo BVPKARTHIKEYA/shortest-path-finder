@@ -2,11 +2,6 @@
 
 An interactive React-based visualization tool for exploring and understanding shortest path algorithms in graph theory. This application provides a visual and intuitive way to see how different pathfinding algorithms work in real-time.
 
-[![React](https://img.shields.io/badge/React-18.x-61DAFB?logo=react&logoColor=white)](https://reactjs.org/)
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=black)](https://www.javascript.com/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
----
 
 ## 🌟 Features
 
